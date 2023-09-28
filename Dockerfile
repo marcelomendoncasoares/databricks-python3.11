@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # Install the python on the machine
 RUN sudo apt-get update \
     && add-apt-repository ppa:deadsnakes/ppa \
-    && apt-get install -y build-essential python3.11 python3.11-dev python3.11-distutils \
+    && apt-get install -y build-essential bsdmainutils python3.11 python3.11-dev python3.11-distutils \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get autoremove -y \
     && apt-get clean
