@@ -1,8 +1,8 @@
 # databricks-python3.11
 A custom version of the latest Databricks runtime that replaces Python 3.10 by
 3.11. The image is based on the 13.3-LTS Ubuntu image to avoid a bug on
-`dbutils` that makes plots disappear. More on the bug can be found on?
-https://community.databricks.com/t5/administration-architecture/dbutils-secrets-break-matplotlib-in-recent-databricks-runtimes/m-p/81688#M1464
+`dbutils` that makes plots disappear. More on the bug can be found on
+[this thread from Databricks community](https://community.databricks.com/t5/administration-architecture/dbutils-secrets-break-matplotlib-in-recent-databricks-runtimes/m-p/81688#M1464).
 
 ## How to build and run
 
