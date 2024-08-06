@@ -1,0 +1,16 @@
+# These python libraries are used by Databricks notebooks and the Python REPL
+# https://github.com/databricks/containers/blob/master/ubuntu/python/Dockerfile
+
+six
+jedi
+ipython
+numpy
+pandas~=1.5.3
+pyarrow
+matplotlib
+jinja2
+ipykernel
+grpcio
+grpcio-status
+databricks-sdk==0.1.6
+python-lsp-jsonrpc==1.1.2
