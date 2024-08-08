@@ -7,7 +7,7 @@ on:
     paths:
       - ".github/workflows/build_and_publish.yml"
       - "Dockerfile"
-
+      - "requirements/*"
 env:
   NAMESPACE: ${{ secrets.DOCKERHUB_USERNAME }}
 
